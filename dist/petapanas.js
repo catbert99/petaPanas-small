@@ -73,6 +73,7 @@
                 b2_4.setAttribute('class','topth');
                 b2_4.style.width = a.ppConfig.ppCellw;
                 b2_3.setAttribute('class','topth');
+                b2_3.style.fontSize = a.ppConfig.ppFontSize;
                 b2_3.appendChild(b2_4);
                 b2_1.appendChild(b2_3);
             };
@@ -82,6 +83,7 @@
                 let d1 = document.createElement('tr');
                 let d2 = document.createElement('td');
                 d2.innerText = a.ppData.labels.y[cx];
+                d2.style.fontSize = a.ppConfig.ppFontSize;
                 d1.appendChild(d2);
                 for (let cy = 0; cy < a.ppData.values[cx].length; cy++){
                     let d3 = document.createElement('td');
