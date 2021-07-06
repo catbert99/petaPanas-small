@@ -8,8 +8,8 @@ JavaScript heatmap chart maker using html tables. Colors are blended by finding 
 ## Quickstart
 1. Source the css and js files
 ```
-<link rel="stylesheet href='...'>
-<script src='...'></script>
+<link rel="stylesheet" href="...">
+<script src="..."></script>
 ```
 2. Create a new div to contain the chart and a petaPanas object
 ```
