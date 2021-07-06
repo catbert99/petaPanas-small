@@ -6,7 +6,7 @@ JavaScript heatmap chart maker using html tables. Colors are blended by finding 
 
 
 ## Quickstart
-1. Use the following CDNs
+1. Source the css and js files
 ```
 <link rel="stylesheet href='...'>
 <script src='...'></script>
