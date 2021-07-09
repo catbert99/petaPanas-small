@@ -22,7 +22,7 @@ const yourObjectName = {
   ppDiv : 'yourDivId',
   ppData : dataObjectName
 };
-petaPanas.dchart(yourObjectName);
+petaPanas.chart(yourObjectName);
 
 </script>
 ```
